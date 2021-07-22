@@ -1,0 +1,12 @@
+<div *ngIf="posts.length">
+  <div class="container" *ngFor="let item of posts">
+    <div class="post">
+      <div class="postTitle">{{item.title}}</div>
+      <div class="postTime">
+        {{ getDate(item.createdAt) }}
+      </div>
+      <div class="postContent">{{item.content}}</div>
+    </div>
+  </div>
+</div>
+<div *ngIf="!posts.length" class="noContent">没有文章</div>

@@ -1,0 +1,29 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  width: 900px;
+  max-width: 90%;
+}
+.postTitle {
+  font-size: 2em;
+}
+.postTime {
+  font-size: 0.8em;
+  color: #999;
+  margin: 20px auto;
+}
+.postContent {
+  color: #666;
+}
+.noContent {
+  margin: 20%;
+  text-align: center;
+}
